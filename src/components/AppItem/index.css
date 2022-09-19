@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: cadetblue;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.appNames {
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 20px;
+  color: #1e293b;
+}
+.image {
+  width: 80px;
+  height: 80px;
+}

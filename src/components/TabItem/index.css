@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.para {
+  color: #7b8794;
+  border: none;
+  background-color: transparent;
+  font-family: 'Bree Serif';
+  font-size: 26px;
+  margin: 40px;
+}
+.h {
+  width: 100%;
+}
+.listItems {
+  width: 100%;
+}
+.blue {
+  color: #2563eb;
+}
+.blue1 {
+  background-color: #2563eb;
+}
