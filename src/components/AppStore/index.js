@@ -310,10 +310,23 @@ class AppStore extends Component {
   getFilteredProjects = () => {
     const {searchInput, tabId} = this.state
 
-    const results = appsList.filter(eachResult => eachResult.category === tabId)
-
+    const results = appsList.filter(
+      eachResult =>
+        eachResult.category === tabId &&
+        eachResult.appName.toLowerCase().includes(searchInput.toLowerCase()),
+    )
     return results
   }
+
+  //     getFilteredApps = () => {
+  //     const {activeTabId, searchInput} = this.state
+  //     const filteredApps = appsList.filter(
+  //       eachApp =>
+  //         eachApp.category === activeTabId &&
+  //         eachApp.appName.toLowerCase().includes(searchInput.toLowerCase()),
+  //     )
+  //     return filteredApps
+  //   }
 
   render() {
     const {tabId} = this.state
